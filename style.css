@@ -69,3 +69,47 @@ hr {
 .logo {
     font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .headline {
+        font-size: 30px !important;
+        flex-direction: column !important;
+    }
+    .tile {
+        height: 150px;
+        width: 150px;
+    }
+
+    .tile-body {
+        height: 70%;
+    }
+
+    .tile-header {
+        height: 30%;
+        padding: 20px 20px 5px 20px !important;
+    }
+
+    .tile-icon {
+        font-size: 30px;
+    }
+
+    .card-title {
+        font-size: 25px !important;
+    }
+
+    .forecast {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .forecast-tile {
+        height: 200px;
+        width: 200px;
+    }
+
+    .condition , .timezone, .time{
+        margin-top: 10px !important;
+        text-align: center !important;
+    }
+    
+}
